@@ -1,13 +1,20 @@
-/** globales **/
 
-.contenedor {
-    max-width: 1200px;
-    margin: 0 auto;
-    
+html {
+    font-size: 62.5%; /** Reset para REMS - 62.5% = 10px de 16px **/
+}
+
+body {
+    font-family: 'Lato', sans-serif;
 }
 
 
+/** globales **/
 
+.contenedor {
+    max-width: 120rem; /** = 1200PX**/
+    margin: 0 auto;
+    
+}
 
 
 /*header*/
@@ -18,6 +25,34 @@
     background-position: center center;
     background-size: cover;
     height: 100vh;
-    min-height: 600px;
+    min-height: 60rem; /** = 600px **/
 
+}
+
+.barra {
+
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3rem;
+    align-items: center;
+
+}
+
+/** Navegacion **/
+
+.navegacion a {
+
+    color: white;
+    text-decoration: none;
+    font-size: 1.8rem; /** = 18px **/
+    margin-right: 2rem;
+
+}
+
+.navegacion a:hover {
+    color: #71B100;
+}
+
+.navegacion a:last-of-type {
+    margin: 0;
 }
