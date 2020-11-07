@@ -50,6 +50,19 @@ h4{
     margin-bottom: 2rem;
 }
 
+
+.fw-300 {
+
+    font-weight: 300;
+}
+
+.centrar-texto {
+
+    text-align: center;
+}
+
+
+
 /*header*/
 
 .site-header.inicio {
