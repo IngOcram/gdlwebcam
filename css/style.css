@@ -258,3 +258,33 @@ h4{
 
     font-size: 1.8rem;
 }
+
+/** Seccion Inferior **/
+
+.seccion-inferior {
+    display: flex;
+    justify-content: space-between;
+}
+
+.seccion-inferior .blog {
+    flex-basis: 60%;
+
+}
+
+.seccion-inferior .testimoniales {
+
+    flex-basis: calc(40% - 2rem);
+}
+
+.entrada-blog {
+    display: flex;
+    justify-content: space-between;
+}
+
+.entrada-blog .imagen {
+
+}
+
+.entrada-blog .texto-entrada {
+    
+}
