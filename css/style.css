@@ -208,9 +208,22 @@ h4{
     list-style: none;
     padding: 0;
     display: flex;
-    
+    justify-content: space-evenly;
+
 }
 
+.iconos-caracteristicas li {
+
+   /* flex: 1; */
+    display: flex;
+
+}
+
+.iconos-caracteristicas li img {
+
+    margin-right: 2rem;
+
+}
 
 .precio {
     color: #71b100;
