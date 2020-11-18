@@ -203,6 +203,15 @@ h4{
     margin: 0;
 }
 
+.iconos-caracteristicas {
+
+    list-style: none;
+    padding: 0;
+    display: flex;
+    
+}
+
+
 .precio {
     color: #71b100;
     font-weight: 700;
@@ -211,4 +220,28 @@ h4{
 .ver-todas {
     display: flex;
     justify-content: flex-end;
+}
+
+/** Contacto Home **/
+
+.imagen-contacto {
+
+    background-image: url(../img/encuentra.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 40rem;
+    display: flex;
+    align-items: center;
+
+}
+
+.contenido-contacto {
+
+    flex: 1;
+    color: #ffffff;
+}
+
+.contenido-contacto p {
+
+    font-size: 1.8rem;
 }
