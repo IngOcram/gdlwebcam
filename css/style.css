@@ -90,8 +90,11 @@ h4{
     margin-top: 3rem;
     display: inline-block;
     text-align: center;
+    border: none;
+}
 
-
+.boton:hover {
+    cursor: pointer;
 }
 
 .boton-amarillo {
@@ -411,7 +414,9 @@ h4{
 /** Contacto **/
 
 .contacto p {
-    
+    font-size: 1.4rem;
+    color: #4f4f4f;
+    margin: 2rem 0 0 0;
 }
 
 legend {
@@ -443,6 +448,11 @@ input:not([type="submit"]), textarea, select{
 
 }
 
+input[type="radio"]{
+    width: auto;
+    margin: 0;
+}
+
 select {
     -webkit-appearance:none;
     appearance: none;
@@ -450,4 +460,11 @@ select {
 
 textarea {
     height: 20rem;
+}
+
+.forma-contacto {
+    max-width: 30rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
