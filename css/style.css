@@ -1,10 +1,12 @@
-
 html {
     box-sizing: border-box;
-    font-size: 62.5%; /** Reset para REMS - 62.5% = 10px de 16px **/
+    font-size: 62.5%;
+    /** Reset para REMS - 62.5% = 10px de 16px **/
 }
 
-*, *:before, *::after{
+*,
+*:before,
+*::after {
     box-sizing: inherit;
 }
 
@@ -22,51 +24,40 @@ img {
 }
 
 .contenedor {
-    max-width: 120rem; /** = 1200PX**/
+    max-width: 120rem;
+    /** = 1200PX**/
     margin: 0 auto;
-    
 }
 
 h1 {
-
     font-size: 3.8rem;
-
 }
 
 h2 {
-
     font-size: 3.4rem;
-
 }
 
 h3 {
-
     font-size: 3rem;
-
 }
 
-h4{
-
+h4 {
     font-size: 2.6rem;
-
 }
+
 
 /** Utilidades **/
 
 .seccion {
-
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
 
-
 .fw-300 {
-
     font-weight: 300;
 }
 
 .centrar-texto {
-
     text-align: center;
 }
 
@@ -78,10 +69,10 @@ h4{
     max-width: 800px;
 }
 
+
 /** Botones **/
 
 .boton {
-
     color: white;
     font-weight: 700;
     text-decoration: none;
@@ -99,16 +90,12 @@ h4{
 
 .boton-amarillo {
     background-color: #e08709;
-
-
 }
 
 .boton-verde {
-    
     background-color: #71B100;
-
-
 }
+
 
 /*header*/
 
@@ -118,13 +105,12 @@ h4{
 }
 
 .site-header.inicio {
-
     background-image: url(../img/header.jpg);
     background-position: center center;
     background-size: cover;
     height: 100vh;
-    min-height: 60rem; /** = 600px **/
-
+    min-height: 60rem;
+    /** = 600px **/
 }
 
 .contenido-header {
@@ -132,11 +118,9 @@ h4{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    
 }
 
 .contenido-header h1 {
-
     color: white;
     padding-bottom: 2rem;
     max-width: 60rem;
@@ -144,23 +128,21 @@ h4{
 }
 
 .barra {
-
     display: flex;
     justify-content: space-between;
     padding-top: 3rem;
     align-items: center;
-
 }
+
 
 /** Navegacion **/
 
 .navegacion a {
-
     color: white;
     text-decoration: none;
-    font-size: 1.8rem; /** = 18px **/
+    font-size: 1.8rem;
+    /** = 18px **/
     margin-right: 2rem;
-
 }
 
 .navegacion a:hover {
@@ -175,7 +157,6 @@ h4{
 /** Iconos Nosotros **/
 
 .iconos-nosotros {
-
     display: flex;
     justify-content: space-between;
 }
@@ -192,11 +173,9 @@ h4{
 /** Anuncios **/
 
 .contenedor-anuncios {
-
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-
 }
 
 .anuncio {
@@ -208,36 +187,29 @@ h4{
 
 .contenido-anuncio {
     padding: 2rem;
-    
 }
 
-.contenido-anuncio h3, .contenido-anuncio p {
-
+.contenido-anuncio h3,
+.contenido-anuncio p {
     margin: 0;
 }
 
 .iconos-caracteristicas {
-
     list-style: none;
     padding: 0;
     display: flex;
     justify-content: space-evenly;
     flex: 1;
     max-width: 500px;
-
 }
 
 .iconos-caracteristicas li {
-
-   /* flex: 1; */
+    /* flex: 1; */
     display: flex;
-
 }
 
 .iconos-caracteristicas li img {
-
     margin-right: 2rem;
-
 }
 
 .precio {
@@ -250,29 +222,27 @@ h4{
     justify-content: flex-end;
 }
 
+
 /** Contacto Home **/
 
 .imagen-contacto {
-
     background-image: url(../img/encuentra.jpg);
     background-position: center center;
     background-size: cover;
     height: 40rem;
     display: flex;
     align-items: center;
-
 }
 
 .contenido-contacto {
-
     flex: 1;
     color: #ffffff;
 }
 
 .contenido-contacto p {
-
     font-size: 1.8rem;
 }
+
 
 /** Seccion Inferior **/
 
@@ -283,11 +253,9 @@ h4{
 
 .seccion-inferior .blog {
     flex-basis: 60%;
-
 }
 
 .seccion-inferior .testimoniales {
-
     flex-basis: calc(40% - 2rem);
 }
 
@@ -303,12 +271,10 @@ h4{
 
 .entrada-blog .imagen {
     flex-basis: 40%;
-
 }
 
 .entrada-blog .texto-entrada {
     flex-basis: calc(60% - 3rem);
-
 }
 
 .texto-entrada a {
@@ -331,9 +297,9 @@ h4{
 }
 
 .texto-entrada span {
-
     color: #e08709;
 }
+
 
 /*** Testimoniales ***/
 
@@ -345,13 +311,12 @@ h4{
     border-radius: 2rem;
 }
 
-.testimonial p{
-
+.testimonial p {
     text-align: right;
 }
 
 .testimonial blockquote::before {
-    content:'';
+    content: '';
     background-image: url(../img/comilla.svg);
     width: 4rem;
     height: 4rem;
@@ -365,6 +330,7 @@ h4{
     font-weight: 300;
 }
 
+
 /** Footer **/
 
 .site-footer {
@@ -373,11 +339,9 @@ h4{
 }
 
 .contenedor-footer {
-
     padding: 3rem 0;
     display: flex;
     justify-content: space-between;
-    
 }
 
 .copyright {
@@ -385,7 +349,9 @@ h4{
     color: #ffffff
 }
 
+
 /** INTERNAS **/
+
 
 /** Nosotros **/
 
@@ -402,14 +368,15 @@ h4{
     padding: 1rem 0 3rem 0;
 }
 
+
 /** Anuncio **/
 
 .resumen-propiedad {
-
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 
 /** Contacto **/
 
@@ -423,6 +390,7 @@ legend {
     font-size: 2.4rem;
     color: #4f4f4f
 }
+
 label {
     font-weight: 700;
     text-transform: uppercase;
@@ -438,23 +406,24 @@ input[type="text"] {
     border: none;
 }
 
-input:not([type="submit"]), textarea, select{
+input:not([type="submit"]),
+textarea,
+select {
     padding: 1rem;
     display: block;
     width: 100%;
     background-color: #e1e1e1;
     margin-bottom: 2rem;
     border: none;
-
 }
 
-input[type="radio"]{
+input[type="radio"] {
     width: auto;
     margin: 0;
 }
 
 select {
-    -webkit-appearance:none;
+    -webkit-appearance: none;
     appearance: none;
 }
 
